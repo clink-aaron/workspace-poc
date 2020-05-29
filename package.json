@@ -1,0 +1,25 @@
+{
+  "name": "workspace-poc",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "plugin-poc"
+  ],
+  "dependencies": {
+    "craco-config-flex-plugin": "^3.5.0",
+    "flex-plugin": "^3.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "flex-plugin-scripts": "^3.5.0",
+    "react-scripts": "3.4.1",
+    "@twilio/flex-ui": "^1",
+    "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "rimraf": "^3.0.0"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

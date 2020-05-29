@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-poc",
+    "version": "0.0.0",
+    "class": "PocPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-poc.js"
+  }
+]
